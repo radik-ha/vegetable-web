@@ -1,0 +1,67 @@
+
+  
+* {
+	font-family: "Karla", sans-serif;
+	font-weight: bolder;
+}
+
+body {
+	background-color: lightgreen;
+}
+
+.vegdetails {
+	display: flex;
+	flex-direction: column;
+}
+
+.vegdetails h1, h2 {
+	margin: 0;
+}
+
+.vegdetails h2 {
+	text-align: center;
+	font-size: 2vw;
+}
+
+header {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	color: lightgreen;
+	background-color: green;
+	border-radius: 2rem;
+	font-size: 4vw;
+}
+
+header img {
+	width: 15%;
+	border-radius: 50%;
+	border: 1px solid lightgreen;
+	margin: 1rem;
+}
+
+p {
+	color: lightgreen;
+	background-color: rgba(0,0,0,0.6);
+	font-weight: lighter;
+	padding: 1rem;
+	border-radius: 2rem;
+	font-size: 1vw;
+	text-align: justify;
+}
+
+p img {
+	border-radius: 2rem;
+}
+
+p #img1 {
+	float: left;
+}
+
+p #img2 {
+	float: right;
+}
+
+p #img3 {
+	float:left;
+}
